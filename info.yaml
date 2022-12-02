@@ -1,7 +1,7 @@
 --- 
 # TinyTapeout project information
 project:
-  wokwi_id:    334445762078310996        # If using wokwi, set this to your project's ID
+  wokwi_id:    347497504164545108        # If using wokwi, set this to your project's ID
 #  source_files:        # If using an HDL, set wokwi_id as 0 and uncomment and list your source files here
 #    - verilog/rtl/counter.v
 #    - verilog/rtl/decoder.v
@@ -14,12 +14,12 @@ project:
 #
 # This info will be automatically collected and used to make a datasheet for the chip.
 documentation: 
-  author:       ""      # Your name
-  discord:      ""      # Your discord handle - make sure to include the # part as well
-  title:        ""      # Project title
-  description:  ""      # Short description of what your project does
-  how_it_works: ""      # Longer description of how the project works
-  how_to_test:  ""      # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
+  author:       "Matt Venn"      # Your name
+  discord:      "mattvenn#1907"      # Your discord handle - make sure to include the # part as well
+  title:        "Tiny 7 Segment for GF180"      # Project title
+  description:  "Prints Tinytapeout on the connected 7 segment display"      # Short description of what your project does
+  how_it_works: "take a look at the wokwi design"      # Longer description of how the project works
+  how_to_test:  "apply clock to pin 0 and attach 7 segment to output pins as shown in the pin table"      # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
   external_hw:  ""      # Describe any external hardware needed
   language:     "wokwi" # other examples include Verilog, Amaranth, VHDL, etc
   doc_link:     ""      # URL to longer form documentation, eg the README.md in your repository
